@@ -1,0 +1,15 @@
+What is bootstrap.
+Difference between ng-bind and ng-bind-html.
+How to use ng-include.
+ng-class-odd.
+ng-class-even.
+ng-pluralize.
+Why we use services, we can perform all tasks through controllers that we want to perform using services.
+Difference between the ng-keydown, ng-keypress and ng-keyup.
+ng-model-options.
+Difference between ng-src and ng-secret.
+What is linking function.
+Explain what is string interpolation in Angular.js
+Explain what is injector?
+How do you reset a $timeout, $interval(), and disable a $watch()?
+What is DDO Directive Definition Object?
