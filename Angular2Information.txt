@@ -1,0 +1,78 @@
+Angular 2 Information : 
+
+
+Why we use angular 2 instead of angular 1 : 
+
+(1) : Angular 2 provide easy way to implement Single Page application.
+(2) : Angular 2 uses the concept of classes, interfaces.
+
+
+What we requires to execute the simple angular 2  application : 
+
+(1) : node.js. (We need to install the npm (Node Package Manager) by executing the command ' npm install ' on cmd and then we have to start the npm by executing 
+the command ' npm start ' on cmd).
+
+(2) : Below files.
+
+
+There are some files that are required by Angular 2 Simple Application which are as follows : 
+
+(1) : tsconfig.json : This is one of the configration file for Typescript compiler for providing the information to Typescript compiler in order to perform 
+					  transform	typescript file to javascript file.
+(2) : typings.json : This is one of the configration file for Typescript compiler for providing the information to Typescript compiler in order to perform 
+					intelisence if we are using another jar file in our application.
+(3) : package.json : 
+
+For more information you can see example ' app.component.ts '.
+
+Information for this example ' app.component.ts '
+
+(1) : Creating a model (because we are using export keyword which means we are implementing the model and the model can be consists of a class, variable, 
+function but in current example we are creating the class ' CreateComponent ' with model) class and making this class ' CreateComponent ' to be associated with
+Component we need to make the class as a Component then we have to use Component Decorator and Decorator is same as the annotation in java and Component
+decorator present at model ' angular2/core ' and in this Component decorator we have two basic attributes which are selector (which represent as a element) , 
+template . The model ' CreateComponent ' that we have created can be used with any other model easily and if we are using this model ' CreateComponent ' with 
+another model ' app.component.ts ' then we have to provide explicity the reference of required model ' CraeteComponent ' with actual model ' app.component.ts '
+by using the directive attribute of Component decorator for example ' directives : [model class name ' CreateComponent '] ' and we have to also import the
+another model ' CreateComponent ' also after providing the explicity reference of model ' CreateComponent '.
+                                
+(2) : We can use variables in model classes in this exmaple ' app.component.ts ' and we can also ignore to use the variable data type because in angular 2 data
+type will be set based on value of a variable.
+
+(3) : #variable name is a syntax used for declaring the variable locally for a template with attributes (for exmaple ' *ngFor="" ') that we define in template .
+
+(4) : If we are using the class as a component then we have to use one attribute i.e directives to explicitly referencing the component class but if we are using
+the services class (that are another class) in our class then we have to use the providers attribute in order to explicitly referencing the services class.
+
+(5) : Code ' courses1[0] '  is used to access the first element from array but if we want to access whole array one time then we can use code ' courses1 ' and 
+	  if we want to access the array item-by-item then we can use the code '
+   
+   <ul>  
+    
+<li *ngFor="#course of courses">
+{{course}}
+
+
+
+</li>
+
+    </ul>
+   
+   ' .
+   
+(6) : If we want to use button operations then we can use attribute i.e ' <button (mouseleave)="mouseClicked()" > Clicked </button> '. We can also the various button operations such
+	  as click, dblclick, mouseover, mouseleave etc and the operations that we want to perform on performing the event we have to define in class.
+	  
+(7) : @Component is decorator and it behaves like annotation in java. 	
+
+(8) : In the app/js folder, javascript files will be their that are the javascript version file of typescript (ts) files (placed in folder app/ts) that are converted automatically.
+	  we are not allow to change these files.
+
+(9) : In the node_modeules folder, all the models will be their that are automatically implemented after installing npm (node ) software. We are not allow to change these files.
+
+(10) : files under typings folder and typings.json file is used if we want to define the external libraries that we want to use in out application. We are not allow to change these 
+files.
+
+(11) : package.json file is used if you want to define dependencies for our application.
+
+(12) : tsconfig.json file is used to to provide information related to what we have to do while tranfering/converting files from typescript to javascript.
