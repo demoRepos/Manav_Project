@@ -1,0 +1,5 @@
+Things to do in spring : 
+
+1 : Different types of View Resolver.
+
+2 : Different types of Method Resolver in MultiActionController.

@@ -1,0 +1,10 @@
+Points to be discussed for Spring : 
+
+1 : c namespace.
+2 : default-autowire="".
+3 : how to pass dynamic values in xml.
+4 : Purpose of xmlns:xsi and xmlns:schemaLocation
+5 : Declarative and Programmatic Transaction management example.
+6 : AutoProxying.
+7 : Difference between more types of XMLBeanFactory.
+8 : Difference between ClassPathXmlApplicationContext, FileSystemXmlApplicationContext, XmlWebApplicationContext

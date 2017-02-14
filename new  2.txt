@@ -1,0 +1,7 @@
+Points to be discussed for Spring : 
+
+1: Autowired annotation with all types.
+2 : c namespace.
+3: default-autowire="".
+4: how to pass dynamic values in xml.
+5 : Use of Conroller, AbstractController, UrlFilenameViewController, ParameterizableViewController
