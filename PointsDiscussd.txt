@@ -14,3 +14,6 @@ http://www.java2blog.com/2016/04/spring-restful-web-services-crud-example.html
 
 
 http://www.java2blog.com/2016/08/spring-mvc-angularjs-example.html
+
+
+http://websystique.com/springmvc/spring-mvc-4-angularjs-example/
