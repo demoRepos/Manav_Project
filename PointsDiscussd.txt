@@ -22,3 +22,10 @@ http://websystique.com/springmvc/spring-mvc-4-angularjs-example/
 
 AngularJS $http service example-server communication
 http://websystique.com/angularjs/angularjs-http-service-example-server-communication/
+
+
+http://www.java2blog.com/2016/04/spring-restful-web-services-crud-example.html
+Spring Restful web services CRUD example
+
+http://www.java2blog.com/2016/08/spring-rest-hibernate-example.html
+Spring Rest Hibernate example
