@@ -16,4 +16,9 @@ http://www.java2blog.com/2016/04/spring-restful-web-services-crud-example.html
 http://www.java2blog.com/2016/08/spring-mvc-angularjs-example.html
 
 
+Spring 4 MVC+AngularJS CRUD Example using $http service
 http://websystique.com/springmvc/spring-mvc-4-angularjs-example/
+
+
+AngularJS $http service example-server communication
+http://websystique.com/angularjs/angularjs-http-service-example-server-communication/
