@@ -1,0 +1,16 @@
+1 :- Below is the link in order to look into the ' AngularJS $http service example-server communication '.
+http://websystique.com/angularjs/angularjs-http-service-example-server-communication/
+
+2 :- AngularJS Form Validation Example
+http://websystique.com/angularjs/angularjs-form-validation-example/
+
+
+
+
+
+http://www.java2blog.com/2016/04/spring-restful-web-services-crud-example.html
+
+
+
+
+http://www.java2blog.com/2016/08/spring-mvc-angularjs-example.html
